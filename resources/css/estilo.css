@@ -1,0 +1,14 @@
+.fundo{
+    background: #E12B20;
+    color: #ffffff;
+   
+}
+
+.botao{
+    background: #E12B20;
+    color: #ffffff;
+    font-size: larger;
+    border-color: #E12B20;
+    padding: 8px 28px;
+    border-radius: 20px;
+}
