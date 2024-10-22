@@ -1,7 +1,7 @@
 .fundo{
     background: #E12B20;
     color: #ffffff;
-   
+    height: 100vh;
 }
 
 .botao{
@@ -12,3 +12,86 @@
     padding: 8px 28px;
     border-radius: 20px;
 }
+
+.rodape{
+    display:flex;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.rodape div{
+    width: 100%;
+}
+
+.direita{
+    display: flex;
+    justify-content:end ;
+}
+
+
+ /* Navegação  */
+
+ .nav{
+    display: flex;
+    width: 100%;
+    object-position: fixed;
+    background: #E12B20;
+    color: #ffffff;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    
+ }
+
+ .nav a{
+    font-size: larger;
+ }
+
+ .link{
+    color: #ffffff;
+    text-decoration: none;
+    
+ }
+
+ /* card de emergência */
+
+ .carde{
+    background-color: #E8E8E8;
+ }
+
+ .carde h5{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 3%;
+    margin-left: 3%;
+ }
+
+ .carde p{
+    font-style: oblique;
+    margin-left: 4%;
+    margin-bottom: 1%;
+ }
+
+ .entrecard{
+    padding-top: 4%;
+ }
+
+ .cardchat{
+    padding-top: 10%;
+    display: flex;
+    justify-content: flex-end;
+ }
+
+ .text-center h2{
+    font-weight: bold;
+    padding-top: 2%;
+ }
+
+ .pbotao{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0;
+ }

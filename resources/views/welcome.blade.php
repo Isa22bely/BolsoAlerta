@@ -34,7 +34,10 @@
                     <input type="password" class="form-control" id="exampleInputPassword1">
                 </div>
                 <div class="d-grid gap-2 col-6 mx-auto">
-                    <button type="submit" class="botao">Entrar</button>
+                    <button type="submit" class="botao"  >Entrar</button>
+                    <a href="/emergencia">
+                        exemplo
+                    </a>
                 </div>   
                 
             </form>
@@ -43,7 +46,13 @@
     
     </div>
     </div>
-    
-
+<footer class="rodape">
+        <div>
+            <img class="EEsquerdo" src="{{asset('storage/exemplo/esquerda.svg')}}">
+        </div>
+        <div class="direita">
+            <img  src="{{asset('storage/exemplo/direita.svg')}}">
+        </div>
+</footer>
 </body>
 </html>
