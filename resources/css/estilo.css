@@ -95,3 +95,33 @@
     justify-content: flex-start;
     margin-left: 0;
  }
+
+ /* chat */
+
+ .bloco{
+   display: block;
+   margin: 13px;
+ }
+
+ .blocoD{
+   display: flex;
+   justify-content: end;
+ }
+
+ .blocoE{
+   display: flex;
+   justify-content: start;
+ }
+ .titulo{
+   color: #E12B20;
+   padding-left: 8px;
+   font-weight: bold;
+   margin-bottom: 0;
+   
+ }
+
+ .cardechat{
+   border-width: 1px;
+   border-style: solid;
+   border-color: black;
+ }

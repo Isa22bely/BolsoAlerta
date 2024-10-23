@@ -32,6 +32,9 @@
     </div> 
     </div>
 </div>
+<a href="/chat">
+    exemplo
+</a>
 
 <div class="cardchat">
     <div class="card border-secondary mb-3" style="max-width: 10rem;">

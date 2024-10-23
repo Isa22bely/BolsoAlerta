@@ -31,3 +31,7 @@ Route::get('/', function () {
 Route::get('/emergencia', function () {
     return view('chamadaDeEmergencia');
 });
+
+Route::get('/chat', function () {
+    return view('chat');
+});

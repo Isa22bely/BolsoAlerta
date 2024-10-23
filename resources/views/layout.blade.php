@@ -20,10 +20,6 @@
             @endif
         </main>
     </div>
-    <div class="container">
-        <div class="rodape">
-            <p class="text-center py-4">Todos os direitos reservados a &copy;Copyright</p>
-        </div>
-    </div>
+    
 </body>
 </html>
