@@ -34,10 +34,12 @@
                     <input type="password" class="form-control" id="exampleInputPassword1">
                 </div>
                 <div class="d-grid gap-2 col-6 mx-auto">
-                    <button type="submit" class="botao"  >Entrar</button>
-                    <a href="/emergencia">
-                        exemplo
-                    </a>
+                    <button type="submit" class="botao">
+                        <a style="text-decoration: none; color: #ffff" href="/listar">
+                            Entrar
+                        </a>
+                    </button>
+                   
                 </div>   
                 
             </form>

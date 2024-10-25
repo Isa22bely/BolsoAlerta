@@ -27,6 +27,9 @@ Route::get('/', function () {
 
 
 
+Route::get('/listar', function () {
+    return view('listagem');
+});
 
 Route::get('/emergencia', function () {
     return view('chamadaDeEmergencia');

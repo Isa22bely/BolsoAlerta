@@ -1,14 +1,15 @@
 @extends('layout')
 @section('content')
 <div class="texto">
-    <div class="text-center">
+    <div class="text-center" style="margin-bottom: -45px">
             <h2 class="fw-medium"> CHAT DE EMERGÊNCIA</h2>
     </div>
 </div>
-
-<div class="pbotao">
-    <img  src="{{asset('storage/exemplo/voltarb.svg')}}"style="max-width: 3rem;">
-</div>
+<a href="/emergencia">
+    <div class="pbotao">
+        <img  src="{{asset('storage/exemplo/voltarb.svg')}}"style="max-width: 3rem;">
+    </div>
+</a>
 
 <div class="entrecard">
     
@@ -39,7 +40,7 @@
                             <p class="titulo">Maria das Graças</p>
                             <div>
                                 <div class="text-center" >
-                                    <img src="{{asset('storage/exemplo/image.png')}}" class="img-fluid"  alt="..." styles=" margin: 10%">
+                                    <img src="{{asset('storage/exemplo/image.png')}}" class="img-thumbnail"  alt="..." styles=" margin: 10%">
                                 </div>
                             </div>
                             <div class="card-body">
@@ -50,8 +51,8 @@
                         </div>
                     </div>
                     <div >
-                        <div class="envmensagen" >
-                            <input  type="mensagen" class="rolagem" id="examplemensagem" > 
+                        <div class="cardmensagen" >
+                            <textarea class="form-control custom-textarea digitar" rows="1" oninput="this.style.height = ''; this.style.height = this.scrollHeight + 'px'" placeholder="..."> </textarea>
 
                             
                         </div>  
