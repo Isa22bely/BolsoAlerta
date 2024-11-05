@@ -26,17 +26,26 @@
                      <hr/>
                 </div>     
                 <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label" >Usuário administrador:</label>
-                    <input type="user" class="form-control" id="exampleInputEmail1">
-                    
+                    <label for="usuario" class="form-label" >Usuário administrador:</label>
+                    <input id="usuario" type="user" class="form-control @error('user') is-invalid @enderror" name="usuario" required autocomplete="user">
+                    @error('password')
+                        <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                        </span>
+                    @enderror
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Senha:</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <label for="password" class="form-label">{{ __('Password') }}</label>
+                    <input id="password" type="password"  class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+                        @error('password')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
                 </div>
                 <div class="d-grid gap-2 col-6 mx-auto">
-                    <button type="submit" class="botao">
-                        <a style="text-decoration: none; color: #ffff" href="/listar">
+                    <button type="submit" class="botao" href="/listar">
+                        <a style="text-decoration: none; color: #ffff" >
                             Entrar
                         </a>
                     </button>
@@ -59,3 +68,4 @@
 </footer>
 </body>
 </html>
+
